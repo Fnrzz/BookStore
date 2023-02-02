@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+
+.kotak {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #34cdde;
+}
+
+.c1 {
+    color: #34cdde;
+}
+
+.bg-c1 {
+    background-color: #34cdde;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11);
+}
+
+
+
+@media screen and (max-width:994px) {
+    #heading .container {
+        padding-top: 3rem;
+    }
+
+    #transaction .card {
+        width: 100%;
+    }
+
+}
